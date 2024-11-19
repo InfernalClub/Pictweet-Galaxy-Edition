@@ -1,0 +1,23 @@
+ebean:
+  dumpMetricsOnShutdown: true
+  dumpMetricsOptions: loc, sql, hash
+
+ddl:
+  generate: true
+  run: true
+
+debug:
+  sql: true
+  lazyload: true
+
+logging:
+  level: all  # Adjusted logging level
+
+datasource:
+  db:
+    username: pictwin
+    password: ${DB_PASSWORD:79z#5RX&qq5z}  # Use an environment variable as fallback
+    platform: sqlite  # Other options: h2, postgres, mysql, oracle, sqlserver
+    ddlMode: dropCreate  # Options: none, dropCreate, migrations
+    dbName: pictwin
+    url: jdbc:sqlite:database.db
