@@ -1,0 +1,52 @@
+<component name="libraryTable">
+  <library name="io.ebean" type="repository">
+    <properties maven-id="io.ebean:ebean:13.25.1-jakarta" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean/13.25.1-jakarta/ebean-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-api/13.25.1-jakarta/ebean-api-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/avaje/avaje-applog/1.0/avaje-applog-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/avaje/avaje-applog-slf4j/1.0/avaje-applog-slf4j-1.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/avaje/avaje-lang/1.1/avaje-lang-1.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/avaje/avaje-config/3.9/avaje-config-3.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/jakarta-persistence-api/3.0/jakarta-persistence-api-3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-annotation/8.4/ebean-annotation-8.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-types/3.0/ebean-types-3.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-datasource-api/8.9/ebean-datasource-api-8.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-core/13.25.1-jakarta/ebean-core-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-ddl-runner/2.3/ebean-ddl-runner-2.3.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/avaje/classpath-scanner/7.1/classpath-scanner-7.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/avaje/classpath-scanner-api/7.1/classpath-scanner-api-7.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-migration-auto/1.2/ebean-migration-auto-1.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-core-type/13.25.1-jakarta/ebean-core-type-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-externalmapping-api/13.18.0/ebean-externalmapping-api-13.18.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-joda-time/13.24.0/ebean-joda-time-13.24.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.11.1/joda-time-2.11.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-jackson-jsonnode/13.24.0/ebean-jackson-jsonnode-13.24.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-jackson-mapper/13.25.1-jakarta/ebean-jackson-mapper-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.15.0/jackson-core-2.15.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.15.0/jackson-databind-2.15.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-annotations/2.15.0/jackson-annotations-2.15.0.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-datasource/8.9/ebean-datasource-8.9.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-migration/13.11.1/ebean-migration-13.11.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-querybean/13.25.1-jakarta/ebean-querybean-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-all/13.25.1-jakarta/ebean-platform-all-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-h2/13.25.1-jakarta/ebean-platform-h2-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-clickhouse/13.25.1-jakarta/ebean-platform-clickhouse-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-db2/13.25.1-jakarta/ebean-platform-db2-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-hana/13.25.1-jakarta/ebean-platform-hana-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-hsqldb/13.25.1-jakarta/ebean-platform-hsqldb-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-mysql/13.25.1-jakarta/ebean-platform-mysql-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-mariadb/13.25.1-jakarta/ebean-platform-mariadb-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-nuodb/13.25.1-jakarta/ebean-platform-nuodb-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-oracle/13.25.1-jakarta/ebean-platform-oracle-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-postgres/13.25.1-jakarta/ebean-platform-postgres-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-sqlanywhere/13.25.1-jakarta/ebean-platform-sqlanywhere-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-sqlite/13.25.1-jakarta/ebean-platform-sqlite-13.25.1-jakarta.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/ebean/ebean-platform-sqlserver/13.25.1-jakarta/ebean-platform-sqlserver-13.25.1-jakarta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
