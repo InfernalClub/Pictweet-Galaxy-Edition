@@ -10,10 +10,13 @@ dependencies {
     // Lombok
     implementation 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
     // Password
     implementation 'com.password4j:password4j:1.8.0'
+
     // Ebean
     implementation 'io.ebean:ebean:12.13.1'
+    annotationProcessor 'io.ebean:ebean-querybean-generator:12.13.1' // Add this line for query bean generation
 
     // ULID
     implementation 'com.github.f4b6a3:ulid-creator:5.2.0'
@@ -27,6 +30,12 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:2.0.9' // SLF4J API
     implementation 'ch.qos.logback:logback-classic:1.4.11' // Logback
 }
+
+compileJava {
+    options.annotationProcessorPath = configurations.annotationProcessor // Ensure annotation processors are used
+}
+
+sourceSets.main.java.srcDirs += 'build/generated/sources/annotationProcessor/java/main' // Add generated sources directory
 
 test {
     useJUnitPlatform()
