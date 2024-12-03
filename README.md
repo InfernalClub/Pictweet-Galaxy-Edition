@@ -1,2 +1,2 @@
 # Pictweet-Galaxy-Edition
-My own take in the supposed copy of twitter
+My 3rd attempt of twitter low hopes edition, might have to redo it again
